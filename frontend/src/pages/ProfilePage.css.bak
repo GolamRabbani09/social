@@ -1,0 +1,251 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Profile Header */
+.profile-header {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profile-banner {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-pic-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+.profile-pic-placeholder-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #667eea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+}
+
+.profile-info {
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.profile-name-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.profile-info h1 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.bio {
+  color: #666;
+  font-size: 15px;
+  margin: 1rem 0;
+  line-height: 1.5;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Follow Button */
+.follow-btn {
+  padding: 8px 24px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.follow-btn:hover {
+  background-color: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.follow-btn.following {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.follow-btn.following:hover {
+  background-color: #d0d0d0;
+}
+
+/* Stats Section */
+.profile-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat strong {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 0.3rem;
+}
+
+.stat span {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Posts Section */
+.profile-posts {
+  margin-top: 2rem;
+}
+
+.profile-posts h2 {
+  font-size: 20px;
+  margin: 0 0 1.5rem 0;
+  padding: 0 0 1rem;
+  border-bottom: 2px solid #667eea;
+  color: #1a1a1a;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #999;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 16px;
+  color: #666;
+}
+
+.error {
+  color: #d32f2f;
+}
+  justify-content: center;
+  gap: 3rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat strong {
+  font-size: 20px;
+  display: block;
+}
+
+.stat span {
+  color: #666;
+  font-size: 12px;
+}
+
+.follow-btn {
+  background-color: #0095f6;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.follow-btn:hover {
+  background-color: #0080d0;
+}
+
+.profile-posts {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.profile-posts h2 {
+  font-size: 18px;
+  margin: 0 0 1rem 0;
+}
+
+.no-posts {
+  text-align: center;
+  color: #999;
+  padding: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #ff4458;
+}
